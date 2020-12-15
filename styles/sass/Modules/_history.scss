@@ -1,0 +1,35 @@
+.history {
+    padding: 2rem 2rem 1rem 0;
+
+    &__content {
+        display: flex;
+
+    }
+
+    &__img--container {
+        width: 50%;
+        background-image: url('../images/header-back.jpg');
+        margin-right: 2rem;
+        background-attachment: fixed;
+        // background-position: center;
+        clip-path: polygon(0 0, 0 100%, 70% 100%, 100% 0 );
+    }
+
+    &__text {
+        width: 50%;
+        
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    &__desc {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #999;
+        margin-bottom: 2rem;
+    }
+
+}

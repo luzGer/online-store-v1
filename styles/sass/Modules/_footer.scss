@@ -1,0 +1,32 @@
+.footer {
+    padding: 4rem;
+    background-color: rgba(255, 166, 0, 0.699);
+    border-top: 1px solid #777;
+    display: flex;
+    justify-content: space-around;
+
+    @include phone {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__list {
+        list-style: none;
+        line-height: 2;
+
+
+        @include phone {
+            border-top: 1px solid #000;
+        }
+        
+    }
+
+    &__item {
+        margin: .5rem 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
